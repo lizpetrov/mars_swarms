@@ -26,9 +26,11 @@ export default function GradientTextButton({ text, href }: GradientTextButtonPro
           WebkitTextFillColor: 'transparent',
           transition: 'background 0.2s',
           cursor: 'pointer',
+          fontFamily: 'SpaceAge, sans-serif'
         }}
         onMouseEnter={() => setIsHovered(true)}
         onMouseLeave={() => setIsHovered(false)}
+        size={80}
       >
         {text}
       </Title>

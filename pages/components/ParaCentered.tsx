@@ -14,8 +14,8 @@ export default function ParaCentered({text}: ParaCenteredProps) {
     <Container size="xs" px="xs">
         <Text
         ta="center"
-        fz="22px"
-        fw={300} // regular
+        fz="20px" // og 22
+        fw="80%" // regular
         >
         {text}
         </Text>

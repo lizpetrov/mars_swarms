@@ -2,6 +2,7 @@
 
 import { Center, Stack } from "@mantine/core";
 import CenteredModel from "./components/CenteredModel";
+import CurrentResearchHeaderText from "./components/CurrentResearchHeaderText";
 import ImageGallery from "./components/ImageGallery";
 import ModelAndText from "./components/ModelAndText";
 import NatureHeaderText from "./components/NatureHeaderText";
@@ -11,6 +12,7 @@ import ParaCentered from "./components/ParaCentered";
 import ResearchPaperView from "./components/ResearchPaperView";
 import StatisticsText from "./components/StatisticsText";
 import Intro from "./intro";
+import { PaperCategory } from "./ResearchPapers";
 
 
 export default function Home() {
@@ -33,7 +35,9 @@ export default function Home() {
 
         <NetLogoView htmlSrc="AntsFoodNetLogo.html" header="Netlogo!" body="Play around with this - notice how things change when you edit the...." />
 
-        <ResearchPaperView paperCategory="finding" />
+        <CurrentResearchHeaderText text="Current Research" />
+
+        <ResearchPaperView paperCategory={PaperCategory.Finding} />
 
 
 

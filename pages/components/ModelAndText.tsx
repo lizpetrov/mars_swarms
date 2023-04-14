@@ -14,31 +14,6 @@ export default function ModelAndText({splineLink, header, body}: ModelAndTextPro
 
     <>
 
-    {/* <Space h="md" />
-    <Grid gutter="xl">
-      <Grid.Col span={1}></Grid.Col>
-      <Grid.Col span={5} >
-
-      <Stack h={400} w={400}> 
-          <Spline scene={splineLink} />
-      </Stack>
-
-      </Grid.Col>
-
-      <Grid.Col span={4}>
-
-        <Stack align="flex-start" justify="flex-start" miw={300}> 
-        {header !== "" && <HeaderTextLeft text={header} />}
-            <BodyText text={body} />
-        </Stack>
-
-      </Grid.Col>
-      <Grid.Col span={2}></Grid.Col> 
-
-    </Grid>
-    <Space h="md" /> */}
-
-
     <Space h="md" />
 
     <Flex
@@ -57,7 +32,7 @@ export default function ModelAndText({splineLink, header, body}: ModelAndTextPro
 
     <Space w="xl" />
 
-      <Stack align="flex-start" justify="flex-start" miw={300}> 
+      <Stack align="flex-start" justify="flex-start" miw={300} maw={500}> 
       {header !== "" && <HeaderTextLeft text={header} />}
           {/* // <HeaderTextLeft text={header} /> */}
           <BodyText text={body} />

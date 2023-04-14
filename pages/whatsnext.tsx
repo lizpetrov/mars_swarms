@@ -8,10 +8,12 @@ export default function WhatsNext() {
     <Stack justify="flex-start" align="center" sx={(theme) => ({ backgroundColor: theme.colorScheme === 'dark' ? theme.colors.dark[8] : theme.colors.gray[0] })}>
       
       <PageTitle text="WHAT'S NEXT?" />
-      <HeaderText text="Nature has..." />
+      <PageTitle text="coming soon" />
+
+      {/* <HeaderText text="Nature has..." />
       <Button variant="outline">1</Button>
       <Button variant="outline">2</Button>
-      <Button variant="outline">3</Button>
+      <Button variant="outline">3</Button> */}
       
     </Stack>
     </>

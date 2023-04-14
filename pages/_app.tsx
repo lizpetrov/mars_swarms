@@ -173,7 +173,7 @@ export default function App(props: AppProps) {
               size={7}
               // fw={1000}
           >
-            Mission in Progress
+            Mission Briefing in Progress
           </Text>
 
             <Text
@@ -190,22 +190,22 @@ export default function App(props: AppProps) {
           </Stack>
 
           <Stepper active={active} onStepClick={setActivePage } breakpoint="sm" sx={{ fontFamily: 'Abstract, monospace' }}  >
-        <Stepper.Step label="Intro" description="">
+        <Stepper.Step label="INTRO" description="">
          {/* Step 1 content: Create an account */}
         </Stepper.Step>
-        <Stepper.Step label="Finding" description="">
+        <Stepper.Step label="FINDING" description="">
           {/* Step 2 content: Verify email */}
         </Stepper.Step>
-        <Stepper.Step label="Getting" description="">
+        <Stepper.Step label="GATHERING" description="">
           {/* Step 3 content: Get full access */}
         </Stepper.Step>
-        <Stepper.Step label="Building" description="">
+        <Stepper.Step label="BUILDING" description="">
           {/* Step 3 content: Get full access */}
         </Stepper.Step>
-        <Stepper.Step label="Maintaining" description="">
+        <Stepper.Step label="MAINTAINING" description="">
           {/* Step 3 content: Get full access */}
         </Stepper.Step>
-        <Stepper.Step label="What's Next?" description="">
+        <Stepper.Step label="WHAT'S NEXT?" description="">
           {/* Step 3 content: Get full access */}
         </Stepper.Step>
         <Stepper.Completed>
