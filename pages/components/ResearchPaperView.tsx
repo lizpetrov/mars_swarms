@@ -17,7 +17,10 @@ export default function ResearchPaperView({ paperCategory }: ResearchPaperProps)
 
             <Stack align="center" >
 
-            {researchPapers.filter(paper => paper.category === paperCategory).map(paper => (
+            {/* {images.map((image, index) => ( */}
+
+
+            {researchPapers.filter(paper => paper.category === paperCategory).map((paper, index) => (
 
                 <>
 

@@ -135,8 +135,8 @@ export const researchPapers: ResearchPaper[] = [
     },
     {
         title: "SEARCH Architects Mars House",
-        authors: ["Chang-kwon Kang et al"],
-        abstract: "About the Swarmies mission",
+        authors: ["SEArch (Space Exploration Architecture)", "Clouds AO (Clouds Architecture Office)"],
+        abstract: "SEArch+ (Space Exploration Architecture) and Clouds AO, an architecture and space research collective, were awarded the top prize in the NASA and America Makes sponsored competition for a 3D Printed Habitat Challenge for Mars. The competition asked teams to design a habitat for four crew members while highlighting 3D printing techniques and using material indigenous to Mars. Recognizing that water is the building block to life, the team used a ‘follow the water’ approach to conceptualize, site and construct their design. Mars Ice House was born from the imperative to bring light and a connection to the outdoors into the vocabulary of Martian architecture. The winning proposal stood out as one of the few entries not to bury the habitat beneath regolith, instead mining the anticipated abundance of subsurface ice in the northern regions to create a thin vertical ice shell capable of protecting the interior habitat from radiation while celebrating life above ground.",
         category: PaperCategory.Building,
         image: "https://images.squarespace-cdn.com/content/v1/56a6579ab204d52e0646b187/1483628975137-SJKSE9UV8IFSK6M51SMC/Mars-Ice-House_section_lr_2000.jpg?format=2500w",
         tags: ["NASA Centennial Challenge", "SEARCH Architects"],
@@ -144,7 +144,7 @@ export const researchPapers: ResearchPaper[] = [
         casualHeader: "Swarm Robots for Ice House",
         casualBody: "Another architectural concept, this concept explores the use of swarm robotics for 3d printing a habitat out of ice. Due to the pressure of the atmosphere, ice is in a solid state on Mars, and can be used to build structures. Small robots can spray out liquid water, that they get from the ice on the Martian surface, that then freezes and builds the structure.",
 
-        link: "http://www.spacexarch.com/mars-ice-house",
+        link: "http://www.marsicehouse.com/",
     },
     {
         title: "Termite Building",

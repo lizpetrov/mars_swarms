@@ -29,8 +29,8 @@ export default function ImageGallery({header, body, images}: ModelAndTextProps )
         
         <Carousel height={400} w={600} withIndicators mx="auto">
 
-            {images.map((image) => (
-                <Carousel.Slide>
+        {images.map((image, index) => (
+                <Carousel.Slide key={index}>
 
                     <Hover>
                     <Image
@@ -50,7 +50,7 @@ export default function ImageGallery({header, body, images}: ModelAndTextProps )
         <Space w="xl" />
 
         <Stack align="flex-start" justify="flex-start" miw={300} maw={500}> 
-            {header !== "" && <HeaderTextLeft text={header} />}
+            {header !== "" && <HeaderTextLeft text={header} color1='white' color2='white' />}
             <BodyTextLeft text={body} />
 
         </Stack>
