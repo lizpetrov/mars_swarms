@@ -22,6 +22,7 @@ export default function ImageCentered({src, caption = ""}: ImageProps ) {
         fit="scale-down"
         height={500}
         // mah={}
+        maw={800}
         src={src}
         alt="Mars"
         caption={caption}

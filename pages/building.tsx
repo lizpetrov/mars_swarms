@@ -33,6 +33,8 @@ export default function Building() {
 
         <ParaCentered text="Turns out, Martian regolith is a useful building material that can protect us from the above - and we don't need to carry it up from Earth, saving on rocket fuel! Because of Mars being constantly bombarded with meterodes, the make up of regolith is pretty extraordinary." />
 
+        <ImageCentered src='https://mars.nasa.gov/system/resources/detail_files/27187_PIA25654-web.gif' caption="NASA's Perseverance Rover Collects Regolith" />
+
         <StatisticsText stats={[
           "Estimated Oxide Makeup for Martian Regolith (from Voyager missions):",
           "SiOz: 43%",

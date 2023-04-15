@@ -23,6 +23,10 @@ export default function ResearchPaperView({ paperCategory }: ResearchPaperProps)
 
                     <Space h="md" />
 
+                    <HoverCard width={700} shadow="md" openDelay={200} closeDelay={400}>
+
+                            <HoverCard.Target>
+
                     <Flex  mih={50}
                         gap="xl"
                         justify="center"
@@ -45,9 +49,7 @@ export default function ResearchPaperView({ paperCategory }: ResearchPaperProps)
                             />
                         </Hover>   
 
-                        <HoverCard width={700} shadow="md" openDelay={200} closeDelay={400}>
-
-                            <HoverCard.Target>
+                        
 
                                 <Stack align="flex-start" justify="flex-start">
                                     <Title order={3}
@@ -72,19 +74,21 @@ export default function ResearchPaperView({ paperCategory }: ResearchPaperProps)
                                     </Text>
 
                                 </Stack>
-                            </HoverCard.Target>
-
-                            <HoverCard.Dropdown>
-
-                                {/* <Hover> */}
-                                    <ResearchPaperHoverCard researchPaper={paper} />
-                                {/* </Hover> */}
-
-                            </HoverCard.Dropdown>
-                        </HoverCard>
+                          
 
 
                     </Flex>
+
+                    </HoverCard.Target>
+
+<HoverCard.Dropdown>
+
+    {/* <Hover> */}
+        <ResearchPaperHoverCard researchPaper={paper} />
+    {/* </Hover> */}
+
+</HoverCard.Dropdown>
+</HoverCard>
 
 
                     <Space h="md" />
