@@ -18,7 +18,10 @@ import { PaperCategory } from "./ResearchPapers";
 export default function Home() {
   return (
     <>
-      <Stack align="center">
+
+      <Intro />
+
+      {/* <Stack align="center">
         <PageTitle text="Page Title" />
 
         <CenteredModel splineLink="https://prod.spline.design/dppESLW0qgQCfHYv/scene.splinecode" caption="Centered Model" />
@@ -41,7 +44,7 @@ export default function Home() {
 
 
 
-      </Stack>
+      </Stack> */}
 
     </>
   )

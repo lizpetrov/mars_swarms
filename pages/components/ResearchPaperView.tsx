@@ -17,89 +17,89 @@ export default function ResearchPaperView({ paperCategory }: ResearchPaperProps)
 
             <Stack align="center" >
 
-            {/* {images.map((image, index) => ( */}
+                {/* {images.map((image, index) => ( */}
 
 
-            {researchPapers.filter(paper => paper.category === paperCategory).map((paper, index) => (
+                {researchPapers.filter(paper => paper.category === paperCategory).map((paper, index) => (
 
-                <>
+                    <Stack align="center" key={index} >
 
-                    <Space h="md" />
+                        <Space h="md" />
 
-                    <HoverCard width={700} shadow="md" openDelay={200} closeDelay={400}>
+                        <HoverCard width={700} shadow="md" openDelay={200} closeDelay={400} key={index} >
 
                             <HoverCard.Target>
 
-                    <Flex  mih={50}
-                        gap="xl"
-                        justify="center"
-                        align="center"
-                        direction="row"
-                        wrap="wrap"
-                        >
+                                <Flex mih={50}
+                                    gap="xl"
+                                    justify="center"
+                                    align="center"
+                                    direction="row"
+                                    wrap="wrap"
+                                >
 
 
-                        <Hover>
-                            <Image
-                                // radius="lg"
-                                fit="cover"
-                                // height="auto"
-                                height={300}
-                                width={500}
-                                src={paper.image}
-                                alt="Research Image"
-                            // caption="1"
-                            />
-                        </Hover>   
+                                    <Hover>
+                                        <Image
+                                            // radius="lg"
+                                            fit="cover"
+                                            // height="auto"
+                                            height={300}
+                                            width={500}
+                                            src={paper.image}
+                                            alt="Research Image"
+                                        // caption="1"
+                                        />
+                                    </Hover>
 
-                        
 
-                                <Stack align="flex-start" justify="flex-start">
-                                    <Title order={3}
-                                        // variant="gradient"
-                                        // gradient={{ from: 'darkRed', to: 'yellow', deg: 60 }}
-                                        ta="left"
-                                        w={500}
-                                    >
-                                        {paper.casualHeader}
-                                    </Title>
-                                    <BodyTextLeft text={paper.casualBody} />
 
-                                    <Space h="xl" />
-
-                                    <Text ta="left"
-                                        fw={700}
-                                        fz="15px"
-                                        color='grey'
-                                        fs="italic"
+                                    <Stack align="flex-start" justify="flex-start">
+                                        <Title order={3}
+                                            // variant="gradient"
+                                            // gradient={{ from: 'darkRed', to: 'yellow', deg: 60 }}
+                                            ta="left"
+                                            w={500}
                                         >
-                                        Hover for more info.
-                                    </Text>
+                                            {paper.casualHeader}
+                                        </Title>
+                                        <BodyTextLeft text={paper.casualBody} />
 
-                                </Stack>
-                          
+                                        <Space h="xl" />
 
+                                        <Text ta="left"
+                                            fw={700}
+                                            fz="15px"
+                                            color='grey'
+                                            fs="italic"
+                                        >
+                                            Hover for more info.
+                                        </Text>
 
-                    </Flex>
-
-                    </HoverCard.Target>
-
-<HoverCard.Dropdown>
-
-    {/* <Hover> */}
-        <ResearchPaperHoverCard researchPaper={paper} />
-    {/* </Hover> */}
-
-</HoverCard.Dropdown>
-</HoverCard>
+                                    </Stack>
 
 
-                    <Space h="md" />
+
+                                </Flex>
+
+                            </HoverCard.Target>
+
+                            <HoverCard.Dropdown>
+
+                                {/* <Hover> */}
+                                <ResearchPaperHoverCard researchPaper={paper} />
+                                {/* </Hover> */}
+
+                            </HoverCard.Dropdown>
+                        </HoverCard>
 
 
-                </>
+                        <Space h="md" />
 
-            ))}
+
+                    </Stack>
+
+                ))}
 
             </Stack>
 
