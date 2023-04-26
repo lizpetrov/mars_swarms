@@ -14,7 +14,7 @@ import NetLogoView from './components/NetLogoView';
 import CenteredBoldText from './components/formattedText/CenteredBoldText';
 import BodyTextCentered from './components/formattedText/BodyTextCentered';
 import ReactPlayer from 'react-player';
-import Hover from 'react-3d-hover';
+import Hover from './hover.js';
 
 export default function Building() {
   return (
