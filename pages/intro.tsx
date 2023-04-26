@@ -15,7 +15,7 @@ import CurrentResearchHeaderText from './components/CurrentResearchHeaderText';
 import ImageCentered from './components/ImageCentered';
 import HeaderTextCentered from './components/HeaderTextCentered';
 import BodyTextCentered from './components/formattedText/BodyTextCentered';
-import Hover from 'react-3d-hover';
+import Hover from './hover.js';
 import BodyTextLeft from './components/formattedText/BodyTextLeft';
 import ImageWithBlurb from './components/ImageWithBlurb';
 

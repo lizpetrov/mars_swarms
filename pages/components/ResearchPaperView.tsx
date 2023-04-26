@@ -2,7 +2,7 @@ import { Grid, Stack, Image, Space, HoverCard, Text, Title, Group, Flex } from '
 import CurrentResearchHeaderText from './CurrentResearchHeaderText';
 import BodyTextLeft from './formattedText/BodyTextLeft';
 import ResearchPaperHoverCard from './ResearchPaperHoverCard';
-import Hover from 'react-3d-hover';
+import Hover from '../hover.js';
 import { PaperCategory, researchPapers } from '../ResearchPapers';
 
 interface ResearchPaperProps {

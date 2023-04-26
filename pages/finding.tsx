@@ -14,7 +14,7 @@ import StatisticsText from './components/StatisticsText';
 import { PaperCategory } from './ResearchPapers';
 import ReactPlayer from 'react-player'
 import CenteredBoldText from './components/formattedText/CenteredBoldText';
-import Hover from 'react-3d-hover';
+import Hover from './hover.js';
 
 export default function Finding() {
   return (

@@ -3,8 +3,9 @@ import { Stack, Grid, Image, Overlay, Group, Button, Container, Center, Space, F
 import BodyTextLeft from './formattedText/BodyTextLeft';
 import HeaderTextLeft from './formattedText/HeaderTextLeft';
 import { Carousel } from '@mantine/carousel';
-import Hover from 'react-3d-hover';
+// import Hover from 'react-3d-hover';
 
+import Hover from '../hover.js';
 
 interface ImageProps {
     src: string;

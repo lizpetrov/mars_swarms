@@ -1,5 +1,5 @@
 import { Text, Title, Space } from '@mantine/core';
-import Hover from 'react-3d-hover';
+import Hover from '../../hover.js';
 
 interface CenteredBoldTextProps {
   text: string;
