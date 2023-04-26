@@ -9,7 +9,7 @@ import PageTitle from "./components/PageTitle"
 import ParaCentered from './components/ParaCentered';
 import ResearchPaperView from './components/ResearchPaperView';
 import StatisticsText from './components/StatisticsText';
-import { PaperCategory } from './ResearchPapers';
+import { PaperCategory } from '../public/ResearchPapers';
 import NetLogoView from './components/NetLogoView';
 import CenteredBoldText from './components/formattedText/CenteredBoldText';
 import BodyTextCentered from './components/formattedText/BodyTextCentered';

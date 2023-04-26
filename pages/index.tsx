@@ -12,7 +12,7 @@ import ParaCentered from "./components/ParaCentered";
 import ResearchPaperView from "./components/ResearchPaperView";
 import StatisticsText from "./components/StatisticsText";
 import Intro from "./intro";
-import { PaperCategory } from "./ResearchPapers";
+import { PaperCategory } from "../public/ResearchPapers";
 
 
 export default function Home() {

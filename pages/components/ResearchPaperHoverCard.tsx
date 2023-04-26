@@ -1,6 +1,6 @@
 import { HoverCard, Avatar, Text, Group, Anchor, Stack, Title } from '@mantine/core';
 import Link from 'next/link';
-import { ResearchPaper } from '../ResearchPapers';
+import { ResearchPaper } from '../../public/ResearchPapers';
 
 interface ResearchPaperHoverCardProps {
     researchPaper: ResearchPaper;

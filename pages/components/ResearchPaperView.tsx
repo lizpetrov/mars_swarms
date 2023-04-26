@@ -3,7 +3,7 @@ import CurrentResearchHeaderText from './CurrentResearchHeaderText';
 import BodyTextLeft from './formattedText/BodyTextLeft';
 import ResearchPaperHoverCard from './ResearchPaperHoverCard';
 import Hover from '../hover.js';
-import { PaperCategory, researchPapers } from '../ResearchPapers';
+import { PaperCategory, researchPapers } from '../../public/ResearchPapers';
 
 interface ResearchPaperProps {
     paperCategory: PaperCategory

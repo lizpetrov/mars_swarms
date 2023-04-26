@@ -11,7 +11,7 @@ import PageTitle from "./components/PageTitle"
 import ParaCentered from './components/ParaCentered';
 import ResearchPaperView from './components/ResearchPaperView';
 import StatisticsText from './components/StatisticsText';
-import { PaperCategory } from './ResearchPapers';
+import { PaperCategory } from '../public/ResearchPapers';
 import ReactPlayer from 'react-player'
 import CenteredBoldText from './components/formattedText/CenteredBoldText';
 import Hover from './hover.js';
