@@ -18,6 +18,7 @@ import BodyTextCentered from './components/formattedText/BodyTextCentered';
 import Hover from './hover.js';
 import BodyTextLeft from './components/formattedText/BodyTextLeft';
 import ImageWithBlurb from './components/ImageWithBlurb';
+import CenteredBoldText from './components/formattedText/CenteredBoldText';
 
 
 export default function Intro() {
@@ -74,13 +75,20 @@ export default function Intro() {
       <ParaCentered text="We can potentially bring a single rover to Mars that is an allstar and does it all. All the rovers we have sent up to Mars so far have been single robots with multiple tools, tele-operated (with some lag) by operators on Earth. 
         " />
 
-      <ModelAndText splineLink="https://prod.spline.design/iTOKe7E0UaZdPNYi/scene.splinecode" header="Perseverance Rover" body="This rover has been on Mars the past 2 years, seeking signs of ancient life and collecting rock samples. It has instruments for drilling, imaging, and even a helicopter. The science it is conducting is helping us understand Mars better, and has shown amazing findings such as it is possible to fly in the Martian atmosphere." />
+      <ModelAndText splineLink="https://prod.spline.design/iTOKe7E0UaZdPNYi/scene.splinecode" header="Perseverance Rover" body="This rover has been on Mars the past 2 years, seeking signs of ancient life and collecting rock samples. It has instruments for drilling, imaging, and even a helicopter. The science it is conducting is helping us understand Mars better, and has shown amazing findings such as it is possible to fly in the Martian atmosphere."/>
 
-      <ParaCentered text="But how do we fit all the tools we need to build habitats onto one big rover? This is a huge engineering challenge." />
+      <CenteredBoldText text="But how do we fit all the tools we need to build habitats onto one big rover?" color={'white'} />
 
-      <ParaCentered text="And what if the rover maltfunctions? We would need to send up another one." />
+      <ParaCentered text="This is a huge engineering challenge." />
 
-      <ParaCentered text="And how long will it take a single rover to build a settlement? A long time." />
+      <CenteredBoldText text="And what if the rover maltfunctions?" color={'white'} />
+
+      <ParaCentered text="We would need to send up another one." />
+
+      <CenteredBoldText text="And how long will it take a single rover to build a settlement?" color={'white'} />
+
+      <ParaCentered text="A long time." />
+
 
       <ParaCentered text="With a single rover, we run into some issues we need to think through. If it breaks down, we will need to send another rover to Mars, which may take a few years. And even if in the small chance it doesn't, it will take a single rover years to build a single habitat, even assuming we can make it function autonomysly to avoid the 20 min Earth-based control delay. Space is a tough place, and if we want to build a settlement we need to come up with another solution. " />
 

@@ -33,7 +33,7 @@ export default function ModelAndText({splineLink, header, body}: ModelAndTextPro
     <Space w="xl" />
 
       <Stack align="flex-start" justify="flex-start" miw={300} maw={500}> 
-      {header !== "" && <HeaderTextLeft text={header} />}
+      {header !== "" && <HeaderTextLeft text={header} color1={'darkred'} color2={'yellow'} />}
           {/* // <HeaderTextLeft text={header} /> */}
           <BodyText text={body} />
       </Stack>
