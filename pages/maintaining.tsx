@@ -10,6 +10,7 @@ import ParaCentered from './components/ParaCentered';
 import ResearchPaperView from './components/ResearchPaperView';
 import StatisticsText from './components/StatisticsText';
 import { PaperCategory } from './ResearchPapers';
+import CenteredBoldText from './components/formattedText/CenteredBoldText';
 
 export default function Maintaining() {
   return (
@@ -34,6 +35,13 @@ export default function Maintaining() {
 
         {/* BEAVERS */}
         <ImageCentered src='./images/beaverMaintaining.png' caption='' />
+
+        <ParaCentered text="Beavers create dams " />
+
+        <CenteredBoldText text="How do ants find and then share their find with their fellow ants?" color="#808080" />
+
+        <ParaCentered text="Turns out, each ant follows a simple set of rules. There is no leader ant. An ant would randomly wander, and if it finds food it would head back to the nest and lay a trail of pheromone. Other ants will be excited by this, and head out along the trail. For already wandering ants, if they run into a trail of pheromones they follow it if it is strong. Overtime, ants corroborate on the food source." />
+
 
 
         <CurrentResearchHeaderText text='Researchers have Started to Look into Using Robotic Swarms for Building Structures' />
