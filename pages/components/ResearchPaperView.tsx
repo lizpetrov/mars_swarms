@@ -17,10 +17,7 @@ export default function ResearchPaperView({ paperCategory }: ResearchPaperProps)
 
             <Stack align="center" >
 
-                {/* {images.map((image, index) => ( */}
-
-
-                {researchPapers.filter(paper => paper.category === paperCategory).map((paper, index) => (
+                {researchPapers.filter(paper => paper.category === paperCategory)?.map((paper, index) => (
 
                     <Stack align="center" key={index} >
 

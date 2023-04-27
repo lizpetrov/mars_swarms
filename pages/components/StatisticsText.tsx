@@ -12,7 +12,7 @@ export default function StatisticsText({stats}: StatisticsTextProps) {
       <Space h="md" />
 
     <Stack>
-            {stats.map((stat, index) => (
+            {stats?.map((stat, index) => (
         <Text
             key={index}
             variant="gradient"

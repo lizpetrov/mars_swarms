@@ -29,7 +29,7 @@ export default function ImageGallery({header, body, images}: ModelAndTextProps )
         
         <Carousel height={400} w={600} withIndicators mx="auto">
 
-        {images.map((image, index) => (
+        {images?.map((image, index) => (
                 <Carousel.Slide key={index}>
 
                     <Hover>
