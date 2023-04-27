@@ -14,7 +14,7 @@ export default function GradientTextButton({ text, href }: GradientTextButtonPro
     <>
     <Space h="sm" />
 
-    <Link href={href}>
+    <Link href={href ?? ""}>
       <Title order={1}
         variant="gradient"
         sx={{
