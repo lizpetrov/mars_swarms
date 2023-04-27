@@ -39,7 +39,7 @@ export default function ResearchPaperHoverCard({researchPaper}: ResearchPaperHov
 
         {/* LINK TO PAPER  */}
 
-        <a href={researchPaper.link} target="_blank" rel="noopener noreferrer">
+        <a href={researchPaper.link ?? ""} target="_blank" rel="noopener noreferrer">
         <Text ta="left"
                 fw={700}
                 fz="17px"
