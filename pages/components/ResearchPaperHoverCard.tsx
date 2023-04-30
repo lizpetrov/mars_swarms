@@ -1,6 +1,7 @@
 import { HoverCard, Avatar, Text, Group, Anchor, Stack, Title } from '@mantine/core';
 import Link from 'next/link';
-import { ResearchPaper } from '../../public/ResearchPapers';
+import { ResearchPaper, researchPapers } from '../../public/ResearchPapers';
+import ResearchPaperView from './ResearchPaperView';
 
 interface ResearchPaperHoverCardProps {
     researchPaper: ResearchPaper;
@@ -19,7 +20,7 @@ export default function ResearchPaperHoverCard({researchPaper}: ResearchPaperHov
         {/* AUTHORS  */}
         <Title order={6}
             >
-            {researchPaper.authors?.join('  |  ').toUpperCase()}
+            {researchPaper.authors?.join('  |  ').toUpperCase() ?? ""}
         </Title>
 
         {/* ABSTRACT */}
@@ -34,7 +35,7 @@ export default function ResearchPaperHoverCard({researchPaper}: ResearchPaperHov
          {/* TAGS  */}
          <Title order={6}
             >
-            {researchPaper.tags?.join('  |  ').toUpperCase()}
+            {researchPaper.tags?.join('  |  ').toUpperCase() ?? ""}
         </Title>
 
         {/* LINK TO PAPER  */}

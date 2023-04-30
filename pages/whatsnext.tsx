@@ -30,10 +30,18 @@ export default function WhatsNext() {
 
       <ImageWithBlurb header="4. Maintaining" body="Swarms of robots constantly monitor the settlement structures for decay, fix things as needed, and increase the size of the settlement as more astronauts move in. This makes sure the settlement lasts for countless generations of Martians." caption="AI Generated Swarm Building" image="./images/dalle-maintaining.png"  color1='orange' color2='#FFCD9B' learnMoreLink='./maintaining' />
 
+      {/* NATURE */}
+
+
       <NatureHeaderText text="All of the Above was Inspired by Nature" />
 
       <ImageWithBlurb header="Ants" body="Ants and bees are known for their ability to find food and water. They can find the best locations to build their nests and hives. They can also find the best locations to forage for food and water." caption="" image="./images/ants.png" color1='yellow' color2='lime' learnMoreLink='' />
 
+      {/* BEES, TERMITES, BEAVERS, ETC */}
+
+
+
+      {/* YOUR MISSION BRIEFING IS NOW COMPLETED */}
       
       <PageTitle text="Ad Astra!" />
 
