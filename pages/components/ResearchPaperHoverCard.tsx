@@ -11,19 +11,16 @@ export default function ResearchPaperHoverCard({researchPaper}: ResearchPaperHov
   return (
       <Stack spacing="xs">
 
-        <Title order={4}
+        {/* <Title order={4}
         ta="left"
          >
         {researchPaper.title ?? ""}
         </Title>    
 
-        {/* AUTHORS  */}
         <Title order={6}
             >
             {researchPaper.authors?.join('  |  ').toUpperCase() ?? ""}
         </Title>
-
-        {/* ABSTRACT */}
 
         <Text ta="left"
             fw={500}
@@ -32,11 +29,10 @@ export default function ResearchPaperHoverCard({researchPaper}: ResearchPaperHov
             {researchPaper.abstract ?? ""}
         </Text>
 
-         {/* TAGS  */}
          <Title order={6}
             >
             {researchPaper.tags?.join('  |  ').toUpperCase() ?? ""}
-        </Title>
+        </Title> */}
 
         {/* LINK TO PAPER  */}
 
