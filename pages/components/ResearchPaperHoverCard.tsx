@@ -29,7 +29,7 @@ export default function ResearchPaperHoverCard({researchPaper}: ResearchPaperHov
             fw={500}
             fz="14px"
             >
-            {researchPaper.abstract}
+            {researchPaper.abstract ?? ""}
         </Text>
 
          {/* TAGS  */}

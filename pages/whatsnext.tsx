@@ -6,6 +6,7 @@ import ParaCentered from './components/ParaCentered';
 import ImageWithBlurb from './components/ImageWithBlurb';
 import ImageCentered from './components/ImageCentered';
 import NatureHeaderText from './components/NatureHeaderText';
+import CenteredModel from './components/CenteredModel';
 
 export default function WhatsNext() {
   return (
@@ -35,13 +36,28 @@ export default function WhatsNext() {
 
       <NatureHeaderText text="All of the Above was Inspired by Nature" />
 
-      <ImageWithBlurb header="Ants" body="Ants and bees are known for their ability to find food and water. They can find the best locations to build their nests and hives. They can also find the best locations to forage for food and water." caption="" image="./images/ants.png" color1='yellow' color2='lime' learnMoreLink='' />
+      <ImageWithBlurb header="Ants" body="Ants are known for their ability to find food. Using simple behaviors, they can organize to find and bring back food to their nest." caption="" image="./images/ants.png" color1='yellow' color2='lime' learnMoreLink='' />
 
-      {/* BEES, TERMITES, BEAVERS, ETC */}
+      <ImageWithBlurb header="Bees" body="Bees, each following simple rules, find sources of food and new nest locations, settling on the best location. They also build beautiful structures." caption="" image="./images/bees.png" color1='yellow' color2='orange' learnMoreLink='' />
+
+      <ImageWithBlurb header="Termites" body="Termites, each following simple rules, build magnificant structures out of clay. These can last for thousands of years." caption="" image="./images/termitesBuilding.png" color1='white' color2='orange' learnMoreLink='' />
+
+      <ImageWithBlurb header="Beavers" body="Beavers build dams that create ponds. As floods and currents wash out parts of the dam, beavers work actively to maintain their creation, making dams that are actively maintained last for hundreds of years." caption="" image="./images/beaverMaintaining.png" color1='brown' color2='white' learnMoreLink='' />
+
+      <CenteredBoldText text="Applying these swarm behaviors to robotics allows us to out-of-this-world things. Researchers have already started to explore the possibilities!" color="white" />
+
+      <ParaCentered text="However, all of this research is still in the early exploratory stage. This mission briefing showed you some of the current work occuring. But there is so much left to explore and discover!" />
+
+      <CenteredModel splineLink="https://prod.spline.design/dppESLW0qgQCfHYv/scene.splinecode" caption="Mars" />
+
+      <ParaCentered text="Astronaut candidate, that is where you come in! How can you build upon what you learned in this briefing to make Martian habitation a reality?" />
 
 
 
       {/* YOUR MISSION BRIEFING IS NOW COMPLETED */}
+
+      <PageTitle text="Your Mission Briefing is now Complete." />
+
       
       <PageTitle text="Ad Astra!" />
 

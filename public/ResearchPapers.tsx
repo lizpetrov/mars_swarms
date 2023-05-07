@@ -174,31 +174,31 @@ export const researchPapers: ResearchPaper[] = [
     // },
 
     // MAINTAINING
-    {
-        title: "ISS Maintaining",
-        authors: ["Chang-kwon Kang et al"],
-        abstract: "About the Swarmies mission",
-        category: PaperCategory.Maintaining,
-        image: "https://www.researchgate.net/publication/289212539/figure/fig1/AS:472121781559297@1489574012432/Possible-rover-formation-for-Martian-swarm-exploration.png",
-        tags: ["Hassel", "NASA Innovative Advanced Concepts", "University of Alabama", "flying", "bioinspired"],
+    // {
+    //     title: "ISS Maintaining",
+    //     authors: ["Chang-kwon Kang et al"],
+    //     abstract: "About the Swarmies mission",
+    //     category: PaperCategory.Maintaining,
+    //     image: "https://www.researchgate.net/publication/289212539/figure/fig1/AS:472121781559297@1489574012432/Possible-rover-formation-for-Martian-swarm-exploration.png",
+    //     tags: ["Hassel", "NASA Innovative Advanced Concepts", "University of Alabama", "flying", "bioinspired"],
 
-        casualHeader: "Swarm Robots for Maintaining Habitation Surfaces",
-        casualBody: "Maintaining the ISS.",
+    //     casualHeader: "Swarm Robots for Maintaining Habitation Surfaces",
+    //     casualBody: "Maintaining the ISS.",
 
-        link: "https://kanglab.uah.edu/marsbees",
-    },
+    //     link: "https://kanglab.uah.edu/marsbees",
+    // },
     {
         title: "Tracking Satellites",
-        authors: ["Chang-kwon Kang et al"],
-        abstract: "About the Swarmies mission",
+        authors: ["Privateer Space"],
+        abstract: "Privateer is creating the data infrastructure that will enable sustainable growth for the new space economy. Their proprietary knowledge graph technology offers much-needed enhancements to how we collect and process information about space objects. Even as orbital highways become more congested, this data and the applications built on it will allow space operators to maneuver safely and effectively. The first of many apps to be built on Privateer’s data engine is Wayfinder: an open-access and near real-time visualization of satellites and debris in Earth orbit.",
         category: PaperCategory.Maintaining,
-        image: "https://www.researchgate.net/publication/289212539/figure/fig1/AS:472121781559297@1489574012432/Possible-rover-formation-for-Martian-swarm-exploration.png",
-        tags: ["Hassel", "NASA Innovative Advanced Concepts", "University of Alabama", "flying", "bioinspired"],
+        image: "./images/privateer.png",
+        tags: ["Privateer", "Satellite Tracking", "Startup"],
 
         casualHeader: "Privateer",
-        casualBody: "Tracking space debris. We may see a similar process on mars ??? ",
+        casualBody: "Privateer is making a system that tracks satellites and debris and makes it public for everyone to see. With accurate, shared data of our orbital environment, we can better maintain our satellites, avoid collisions, and work on ways to clean up Earth's surroundings for the benefit of all humanity.",
 
-        link: "https://kanglab.uah.edu/marsbees",
+        link: "https://www.privateer.com/",
     },
 
 ]

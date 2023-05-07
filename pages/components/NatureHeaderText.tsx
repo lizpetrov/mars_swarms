@@ -18,6 +18,7 @@ export default function NatureHeaderText({text}: NatureHeaderTextProps) {
         variant="gradient"
         gradient={{ from: '#FFF01F', to: '#39ff14', deg: 45 }}
         ta="center"
+        w={600}
     >
         {text}
         </Title>

@@ -18,7 +18,7 @@ export default function CenteredBoldText({text, color}: CenteredBoldTextProps) {
         <Title order={2}
              color={color}
             ta="center"
-            maw={500}
+            maw={550}
         >
         {text}
         </Title>
