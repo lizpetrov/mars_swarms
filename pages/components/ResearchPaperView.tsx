@@ -80,7 +80,7 @@ export default function ResearchPaperView({ paperCategory }: ResearchPaperProps)
                                     <HoverCard.Dropdown>
 
                                         {/* <Hover> */}
-                                        <ResearchPaperHoverCard researchPaper={paper} />
+                                        {/* <ResearchPaperHoverCard researchPaper={paper} /> */}
                                         {/* </Hover> */}
 
                                     </HoverCard.Dropdown>
