@@ -14,7 +14,7 @@ export default function ResearchPaperHoverCard({researchPaper}: ResearchPaperHov
         <Title order={4}
         ta="left"
          >
-        {researchPaper.title ?? ""}
+        {/* {researchPaper.title ?? ""} */}
         </Title>    
 
         {/* AUTHORS  */}
