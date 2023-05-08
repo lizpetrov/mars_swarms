@@ -45,8 +45,6 @@ export default function ResearchPaperView({ paperCategory }: ResearchPaperProps)
                                 />
                             </Hover>
 
-
-
                             <Stack align="flex-start" justify="flex-start">
                                 <Title order={3}
                                     // variant="gradient"
@@ -80,7 +78,9 @@ export default function ResearchPaperView({ paperCategory }: ResearchPaperProps)
                                     <HoverCard.Dropdown>
 
                                         {/* <Hover> */}
-                                        <ResearchPaperHoverCard researchPaper={paper} />
+
+                                        { paper && 
+                                        <ResearchPaperHoverCard researchPaper={paper} /> }
                                         {/* </Hover> */}
 
                                     </HoverCard.Dropdown>
