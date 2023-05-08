@@ -10,7 +10,7 @@ interface ResearchPaperHoverCardProps {
 export default function ResearchPaperHoverCard({researchPaper}: ResearchPaperHoverCardProps) {
   return (
       <Stack spacing="xs">
-
+{/* 
         { researchPaper.title &&
             <Title order={4}
             ta="left"
@@ -42,7 +42,6 @@ export default function ResearchPaperHoverCard({researchPaper}: ResearchPaperHov
         </Title>
 }
 
-        {/* LINK TO PAPER  */}
 
         { researchPaper.link &&
         <a href={researchPaper.link ?? ""} target="_blank" rel="noopener noreferrer">
@@ -56,7 +55,7 @@ export default function ResearchPaperHoverCard({researchPaper}: ResearchPaperHov
             </Text>
 
         </a>
-}
+} */}
 
 
       </Stack>
