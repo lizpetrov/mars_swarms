@@ -79,9 +79,61 @@ export default function ResearchPaperView({ paperCategory }: ResearchPaperProps)
 
                                         {/* <Hover> */}
 
-                                        { paper && 
-                                        <ResearchPaperHoverCard researchPaper={paper} /> }
+                                        {/* { paper && 
+                                        <ResearchPaperHoverCard researchPaper={paper} /> } */}
                                         {/* </Hover> */}
+
+                                        <Stack spacing="xs">
+
+{ paper.title &&
+    <Title order={4}
+    ta="left"
+    >
+    {paper.title ?? ""}
+    </Title>    
+}
+
+{ paper.authors &&
+<Title order={6}
+    >
+    {paper.authors?.join('  |  ').toUpperCase() ?? ""}
+</Title>
+}
+
+{ paper.abstract &&
+<Text ta="left"
+    fw={500}
+    fz="14px"
+    >
+    {paper.abstract ?? ""}
+</Text>
+}
+
+{ paper.tags &&
+ <Title order={6}
+    >
+    {paper.tags?.join('  |  ').toUpperCase() ?? ""}
+</Title>
+}
+
+{/* LINK TO PAPER  */}
+
+{ paper.link &&
+<a href={paper.link ?? ""} target="_blank" rel="noopener noreferrer">
+<Text ta="left"
+        fw={700}
+        fz="17px"
+        color='#FFAE42'
+        fs="italic"
+        >
+        See paper
+    </Text>
+
+</a>
+}
+
+
+</Stack>
 
                                     </HoverCard.Dropdown>
                                 </HoverCard>
